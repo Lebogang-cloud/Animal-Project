@@ -36,7 +36,7 @@ class Home {
             }
         }
         this.animals.push(name);
-            return this.animals
+            return this.animals;
     }
     makeAllSounds(){
         for(let i=0; i < this.animals.length; i++){
