@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'init' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/recruit/.npmrc. (matches userconfig)
+5 silly package data undefined
+6 info init written successfully
+7 verbose stack Error: ENOENT: no such file or directory, scandir '/home/recruit/Animal'
+8 verbose cwd /home/recruit/Animal
+9 error Linux 5.3.0-26-generic
+10 error argv "/usr/bin/node" "/usr/bin/npm" "init"
+11 error node v8.10.0
+12 error npm  v3.5.2
+13 error path /home/recruit/Animal
+14 error code ENOENT
+15 error errno -2
+16 error syscall scandir
+17 error enoent ENOENT: no such file or directory, scandir '/home/recruit/Animal'
+18 error enoent ENOENT: no such file or directory, scandir '/home/recruit/Animal'
+18 error enoent This is most likely not a problem with npm itself
+18 error enoent and is related to npm not being able to find a file.
+19 verbose exit [ -2, true ]
