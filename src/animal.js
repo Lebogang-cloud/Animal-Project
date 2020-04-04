@@ -40,7 +40,7 @@ class Home {
     }
     makeAllSounds(){
         for(let i=0; i < this.animals.length; i++){
-            this.animals[i].sound();
+            console.log(this.animals[i].sound());
         }
     }
 }
@@ -61,3 +61,5 @@ home.AdoptPet(dog2);
 home.makeAllSounds();
 
 module.exports = Animal, Cat, Dog, Home;
+
+
